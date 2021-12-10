@@ -32,9 +32,9 @@ services:
     container_name: 'postgres'
     environment:
       PGDATA: /var/lib/postgresql/data/guacamole
-      POSTGRES_DB: ares_db
-      POSTGRES_PASSWORD: aresdb12
-      POSTGRES_USER: ares_user
+      POSTGRES_DB: name_db
+      POSTGRES_PASSWORD: urpassword
+      POSTGRES_USER: uruser
     image: postgres:latest
     networks:
       - docker-network
